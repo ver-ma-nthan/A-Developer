@@ -6,7 +6,7 @@ body{
 
 #page{
 
-  display: nne;
+  display: none;
 
 }
 
@@ -466,6 +466,7 @@ background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);
 
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 40px;
+  text-shadow:2px 1px white;
 
   position: absolute;
   top: 67%;
