@@ -6,7 +6,7 @@ body{
 
 #page{
 
-  display: none;
+  display: nne;
 
 }
 
@@ -409,6 +409,10 @@ background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);
     to{background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);}
 }
 
+
+
+
+
 #name{
 
   color: rgb(195, 194, 194);
@@ -420,8 +424,8 @@ background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);
   font-size: 280%;
 
   position: absolute;
-  top: 30%;
-  left: 1.5%;
+  top: 65%;
+  right: 5%;
 
 
   animation-name: namein;
@@ -443,8 +447,8 @@ background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);
   text-shadow:2px 2px black;
 
   position: absolute;
-  top: 20%;
-  left: 31%;
+  top: 56%;
+  right: 33%;
 
 
   animation-name: namein;
@@ -464,10 +468,9 @@ background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);
   font-size: 40px;
 
   position: absolute;
-  top: 35%;
-  left:2%;
+  top: 67%;
+  right: 5%;
 
-  text-shadow: 1px 1px white ;
 
 
   animation-name: namein;
@@ -492,8 +495,8 @@ background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);
   border-radius: 20px;
   filter: drop-shadow(12px 15px 10px black);
   position: absolute;
-  top: 55%;
-  left: 40%;
+  top: 5%;
+  left: 2%;
 
   opacity: 1.0;
 
@@ -522,8 +525,8 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
   border-radius: 20px;
   filter: drop-shadow(12px 8px 10px white);
   position: absolute;
-  top: 55%;
-  left: 7%;
+  top: 3%;
+  right: 3%;
 
  transition: height 1s;
 
@@ -676,8 +679,8 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
   opacity: 0.8;
 
   position: absolute;
-  top: 10%;
-  left: 60%;
+  top: 60%;
+  left: 3%;
 
   padding: 20px;
   border-radius: 10px;
