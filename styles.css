@@ -2,11 +2,11 @@ body{
   margin: 0%;
 }
 
-
+@media(min-width: 1200px){
 
 #page{
 
-  display: none;
+  display: nne;
 
 }
 
@@ -344,6 +344,10 @@ display: block;
 
   animation-name: namein;
   animation-duration: 4.15s;
+
+
+}
+
 
 
 }
