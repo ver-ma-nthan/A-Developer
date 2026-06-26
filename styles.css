@@ -66,10 +66,25 @@ background-image: conic-gradient(rgb(235, 109, 109),white,orange);
 
 
 
+#intro{
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45vw;
+  height: 30vh;
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  flex-wrap: nowrap;
+
+}
 
 
 #name{
+
+  order: 1;
 
   color: rgb(231, 224, 224);
   font-family: "Wellfleet", serif;
@@ -77,11 +92,9 @@ background-image: conic-gradient(rgb(235, 109, 109),white,orange);
   font-style: normal;
   text-shadow: 3px 2px black ;
 
-  font-size: 500%;
+  font-size: 5vw;
+  flex-wrap: nowrap;
 
-  position: absolute;
-  top: 42%;
-  left: 3%;
 
 
   animation-name: namein;
@@ -100,13 +113,14 @@ background-image: conic-gradient(rgb(235, 109, 109),white,orange);
 #iam{
   color:white;
 
+  order: 0;
+  align-self: flex-end;
+
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 250%;
+  font-size: 3vw;
   text-shadow:2px 2px black;
 
-  position: absolute;
-  top: 33%;
-  left: 40%;
+
 
 
   animation-name: namein;
@@ -120,14 +134,15 @@ background-image: conic-gradient(rgb(235, 109, 109),white,orange);
 
 #wd{
 
+  order: 2;
+  align-self: flex-start;
+
  color: rgb(132, 132, 132);
 
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 300%;
+  font-size: 4vw;
 
-  position: absolute;
-  top: 50%;
-  left:3%;
+
 
   text-shadow: 3px 2px black ;
 
@@ -150,7 +165,7 @@ background-image: conic-gradient(rgb(235, 109, 109),white,orange);
   display: none;
   background-image: radial-gradient(circle,black,grey,white);
 
-  height: 55%;
+  height: 55vh;
   border-radius: 20px;
   filter: drop-shadow(12px 15px 10px black);
   position: absolute;
@@ -165,7 +180,7 @@ background-image: conic-gradient(rgb(235, 109, 109),white,orange);
 
 #mainImage>img:hover{
 
-  height:60%;
+  height:60vh;
 
 }
 
@@ -180,7 +195,7 @@ background-image: conic-gradient(rgb(235, 109, 109),white,orange);
 
 background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
 
-  height: 55%;
+  height: 55vh;
   border-radius: 20px;
   filter: drop-shadow(12px 8px 10px white);
   position: absolute;
@@ -193,7 +208,7 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
 
 #mainImage2>img:hover{
 
-  height:60%;
+  height:60vh;
 
 }
 
@@ -205,7 +220,7 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
 
   display: block;
 
-  height:50%;
+  height:50vh;
   width: 1px;
   background-color: white;
   z-index: 1;
@@ -239,7 +254,7 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
 
   display: block;
 
-  height:50%;
+  height:50vh;
   width: 1px;
   background-color: white;
   z-index: 1;
@@ -274,10 +289,8 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
   z-index: 2;
 
   color: grey;
-  font-size: 30px;
+  font-size: 2vw;
 
-display: block;
-  height: 50px;
 
   position: absolute;
   top: 65%;
@@ -316,10 +329,10 @@ display: block;
   text-orientation: upright;
 
   position: absolute;
-  top: 60%;
-  left: 45.8%;
+  top: 60vh;
+  left: 45vw;
 
-  font-size: 250%;
+  font-size: 3vw;
   text-shadow: 3px 2px rgb(224, 223, 223) ;
   animation-name: atin;
   animation-duration: 15s;
@@ -339,8 +352,8 @@ display: block;
   opacity: 0.8;
 
   position: absolute;
-  top: 20%;
-  left: 60%;
+  top: 20vh;
+  left: 60vw;
 
   padding: 20px;
   border-radius: 10px;
@@ -421,7 +434,7 @@ background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);
   font-style: normal;
   text-shadow: 2px 1px black ;
 
-  font-size: 280%;
+  font-size: 5vw;
 
   position: absolute;
   top: 65%;
@@ -443,7 +456,7 @@ background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);
   color:white;
 
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 200%;
+  font-size: 3vw;
   text-shadow:2px 2px black;
 
   position: absolute;
@@ -465,8 +478,7 @@ background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);
  color: rgb(71, 70, 70);
 
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 40px;
-  text-shadow:2px 1px white;
+  font-size: 4vw;
 
   position: absolute;
   top: 67%;
@@ -492,12 +504,12 @@ background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);
   display: none;
   background-image: radial-gradient(circle,black,grey,white);
 
-  height: 40%;
+  height: 40vh;
   border-radius: 20px;
   filter: drop-shadow(12px 15px 10px black);
   position: absolute;
-  top: 5%;
-  left: 2%;
+  top: 5vh;
+  left: 10vw;
 
   opacity: 1.0;
 
@@ -507,7 +519,7 @@ background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);
 
 #mainImage>img:hover{
 
-  height:43%;
+  height:43vh;
 
 }
 
@@ -522,12 +534,12 @@ background-image: conic-gradient(from -90deg,rgb(235, 109, 109),white,orange);
 
 background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
 
-  height: 40%;
+  height: 40vh;
   border-radius: 20px;
   filter: drop-shadow(12px 8px 10px white);
   position: absolute;
-  top: 3%;
-  right: 3%;
+  top: 3vh;
+  right: 3vw;
 
  transition: height 1s;
 
@@ -535,7 +547,7 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
 
 #mainImage2>img:hover{
 
-  height:43%;
+  height:43vh;
 
 }
 
@@ -547,7 +559,7 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
 
   display: block;
 
-  height:30%;
+  height:48vw;
   width: 1px;
   background-color: white;
   z-index: 1;
@@ -557,7 +569,7 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
 
 
   position: absolute;
-  top: 50%;
+  top: 49vh;
   left:50%;
   filter: drop-shadow(12px 15px 12px white);
 
@@ -570,8 +582,8 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
 }
 
 @keyframes rotate {
-  from{top: 50%;  left:50%; transform: rotate(-90deg);}
-  to{top: 50%;  left:50%; transform: rotate(90deg);}
+  from{transform: rotate(-90deg);}
+  to{transform: rotate(90deg);}
 }
 
 
@@ -581,7 +593,7 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
 
   display: block;
 
-  height:30%;
+  height:46vw;
   width: 1px;
   background-color: white;
   z-index: 1;
@@ -590,8 +602,8 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
   box-shadow: 1px 1px 1px 2px white;
 
   position: absolute;
-  top: 20%;
-  left:50%;
+  top: 8.5vh;
+  left:50vw;
   filter: drop-shadow(12px 15px 12px white);
 
   transform-origin: bottom center;
@@ -603,8 +615,8 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
 }
 
 @keyframes rotate2 {
-  from{  left:50%;transform: rotate(-90deg);}
-  to{ left:50%;transform: rotate(90deg);}
+  from{ transform: rotate(-90deg);}
+  to{transform: rotate(90deg);}
 }
 
 
@@ -619,11 +631,11 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
   z-index: 2;
 
   color: grey;
-  font-size: 30px;
+  font-size: 3vw;
 
 
   position: absolute;
-  top: 60%;
+  top: 72vw;
   left: 70%;
 
 
@@ -657,10 +669,10 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
   z-index: 2;
 
   position: absolute;
-  top: 42%;
-  left: 65%;
+  top: 43vh;
+  left: 65vw;
 
-  font-size: 250%;
+  font-size: 5vw;
   text-shadow: 3px 2px rgb(224, 223, 223) ;
   animation-name: atin;
   animation-duration: 15s;
@@ -680,8 +692,8 @@ background-image: conic-gradient(white,rgb(235, 109, 109) ,orange,white );
   opacity: 0.8;
 
   position: absolute;
-  top: 60%;
-  left: 3%;
+  top: 60vh;
+  left: 3vw;
 
   padding: 20px;
   border-radius: 10px;
